@@ -7,6 +7,16 @@ Console.WriteLine($"Decimal = {teste_decimal}; Binario = {resultado_conversao}")
 
 // 2. Faça um programa que dado dois números dados pelo usuário a e b, desenhe na tela, em binário, o resultado de a << b;
 
+Console.Write("Insira o valor de A: ");
+int a = Int32.Parse(Console.ReadLine());
+Console.Write("Insira o valor de B: ");
+int b = Int32.Parse(Console.ReadLine());
+System.Console.WriteLine(a);
+System.Console.WriteLine(b);
+int result = a << b;
+Console.WriteLine($"A: {a} -> Resultado: {result}");
+Console.WriteLine($"A: {Converter(a)} -> Resultado: {Converter(result)}");
+
 
 
 
