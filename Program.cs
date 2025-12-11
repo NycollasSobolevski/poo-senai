@@ -44,14 +44,30 @@
 // // -----------------------------------------------------------------------------------
 
 
-Pessoa jubileu = new Pessoa()
-jubileu.Nome = "Jubileu da Silva";
-jubileu.Endereco = "Dr Faivre, 180";
-jubileu.CPF = "123.123.123-32";
+// Pessoa p1 = new Pessoa();
+// p1.Nome = "Jubileu da Silva";
+// p1.Endereco = "Dr Faivre, 180";
+// p1.CPF = "123.123.123-32";
 
-Pessoa ana = new Pessoa();
-ana.Nome = "Ana Maria";
-ana.Endereco = "Av Sete de Setembro, 2000";
-ana.CPF = "333.222.111-12";
 
-ana.AtualizarEndereco("Novo endereco da ana");
+// System.Console.WriteLine($"P1: {p1.Nome} - {p1.CPF} - {p1.Endereco}");
+
+// System.Console.WriteLine($"P2: {p2.Nome} - {p2.CPF} - {p2.Endereco}");
+
+// p2.AtualizarEndereco("Novo endereco da ana");
+// System.Console.WriteLine($"P2: {p2.Nome} - {p2.CPF} - {p2.Endereco}");
+
+
+
+//Tendo uma linha de produção, faça um script onde
+//  calculará quantos produtos será produzidos por dia
+//  depois de 20 (Sete dias), onde a cada 2 dias uma 
+//  máquina aleatória sofre uma manutenção, onde há uma
+//  perda de desempenho de 2 peças/dia na manutenção.
+// A Classe Maquina tem que ter os seguintes atributos e 
+// métodos:
+
+// - string Produto ("Parafuso")
+// - int ProducaoPorDia (350)
+// - string Alimentacao (Diesel)
+// - void Manutencao()
